@@ -1,0 +1,6 @@
+#!/bin/sh
+
+APP_DIR=${APP_DIR:="/app"}
+DIR=${1:=${APP_DIR}}
+
+chown -R app:app ${DIR}
